@@ -1,0 +1,4 @@
+install.packages("usethis")
+library(usethis)
+create_github_token()
+gitcreds::gitcreds_set()
